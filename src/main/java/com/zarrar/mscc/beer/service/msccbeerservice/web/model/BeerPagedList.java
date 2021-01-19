@@ -1,4 +1,4 @@
-package com.zarrar.mscc.beer.service.msccbeerservice.web.portal;
+package com.zarrar.mscc.beer.service.msccbeerservice.web.model;
 
 import java.util.List;
 import org.springframework.data.domain.PageImpl;

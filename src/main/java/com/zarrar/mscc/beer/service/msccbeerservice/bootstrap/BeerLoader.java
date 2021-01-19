@@ -2,7 +2,7 @@ package com.zarrar.mscc.beer.service.msccbeerservice.bootstrap;
 
 import com.zarrar.mscc.beer.service.msccbeerservice.domain.Beer;
 import com.zarrar.mscc.beer.service.msccbeerservice.repositories.BeerRepository;
-import com.zarrar.mscc.beer.service.msccbeerservice.web.portal.BeerStyleEnum;
+import com.zarrar.mscc.beer.service.msccbeerservice.web.model.BeerStyleEnum;
 import java.math.BigDecimal;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BeerLoader implements CommandLineRunner {
 
-    public static final String BEER_1_UPC = "0631234200036";
+    public static final String BEER_1_UPC = "0631234200036L";
     public static final String BEER_2_UPC = "0631234300019";
 
     private final BeerRepository beerRepository;

@@ -1,4 +1,4 @@
-package com.zarrar.mscc.beer.service.msccbeerservice.web.portal;
+package com.zarrar.mscc.beer.service.msccbeerservice.web.model;
 
 public enum BeerStyleEnum {
     LAGER, PILSNER, STOUT, GOSE, PORTER, ALE, WHEAT, IPA, PALE_ALE, SAISON
